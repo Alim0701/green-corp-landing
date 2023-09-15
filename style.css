@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #213053;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 15px;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #23a030;
+  box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.header__logo {
+  height: 30px;
+}
+
+.header a {
+  font-weight: 600;
+}
+
+.about {
+  padding: 115px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(img/back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about__info {
+  max-width: 550px;
+}
+
+.about h1 {
+  font-size: 70px;
+  line-height: 76px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+.btn--big {
+  margin-top: 20px;
+  padding: 20px 25px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.about__image {
+  width: 500px;
+}
+
+.about__sun-image {
+  width: 100px;
+  height: 100px;
+}
